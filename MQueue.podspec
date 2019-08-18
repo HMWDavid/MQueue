@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
     s.license           = { :type => 'MIT', :file => 'LICENSE' }
     s.authors           = { "洪绵卫" => "244160918@qq.com" }
-    s.platform          = :ios, '9.0'
+    s.platform          = :ios, '10.0'
     s.source            = {:git => 'https://github.com/HMWDavid/MQueue.git', :tag => s.version}
     s.source_files      = ['Sources/**/*.{swift}']
     s.requires_arc      = true

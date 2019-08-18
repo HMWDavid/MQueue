@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3574231C83C4EE696DC39B02 /* Pods_MQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F916A38A73BAFB58EBF0E440 /* Pods_MQueue.framework */; };
+		DE14BA35230952E900FF9D3B /* MFilePathTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE14BA34230952E900FF9D3B /* MFilePathTool.swift */; };
 		DE2F9A9523093C4400280280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9A9423093C4400280280 /* AppDelegate.swift */; };
 		DE2F9A9723093C4400280280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9A9623093C4400280280 /* ViewController.swift */; };
 		DE2F9A9A23093C4400280280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F9A9823093C4400280280 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* Begin PBXFileReference section */
 		6CE72E1C08D2829FC6496E5B /* Pods-MQueue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQueue.release.xcconfig"; path = "Target Support Files/Pods-MQueue/Pods-MQueue.release.xcconfig"; sourceTree = "<group>"; };
 		9E4F09B0E125D0C8333EB4B0 /* Pods-MQueue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQueue.debug.xcconfig"; path = "Target Support Files/Pods-MQueue/Pods-MQueue.debug.xcconfig"; sourceTree = "<group>"; };
+		DE14BA34230952E900FF9D3B /* MFilePathTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MFilePathTool.swift; path = ../../Sources/MFilePathTool.swift; sourceTree = "<group>"; };
 		DE2F9A9123093C4400280280 /* MQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F9A9423093C4400280280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2F9A9623093C4400280280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,7 +89,6 @@
 				9E4F09B0E125D0C8333EB4B0 /* Pods-MQueue.debug.xcconfig */,
 				6CE72E1C08D2829FC6496E5B /* Pods-MQueue.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -124,6 +125,7 @@
 		DE2F9A9323093C4400280280 /* MQueue */ = {
 			isa = PBXGroup;
 			children = (
+				DE14BA34230952E900FF9D3B /* MFilePathTool.swift */,
 				DE2F9A9423093C4400280280 /* AppDelegate.swift */,
 				DE2F9A9623093C4400280280 /* ViewController.swift */,
 				DE2F9A9823093C4400280280 /* Main.storyboard */,
@@ -330,6 +332,7 @@
 			files = (
 				DE2F9A9D23093C4400280280 /* MQueue.xcdatamodeld in Sources */,
 				DE2F9A9723093C4400280280 /* ViewController.swift in Sources */,
+				DE14BA35230952E900FF9D3B /* MFilePathTool.swift in Sources */,
 				DE2F9A9523093C4400280280 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,7 +511,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQueue/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -527,7 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQueue/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
