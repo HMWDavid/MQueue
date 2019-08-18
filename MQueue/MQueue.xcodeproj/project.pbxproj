@@ -15,7 +15,7 @@
 		DE2F9AA223093C4600280280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F9AA023093C4600280280 /* LaunchScreen.storyboard */; };
 		DE2F9AAD23093C4600280280 /* MQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9AAC23093C4600280280 /* MQueueTests.swift */; };
 		DE2F9AB823093C4600280280 /* MQueueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9AB723093C4600280280 /* MQueueUITests.swift */; };
-		DE9B6D9623093D50001501C5 /* MQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B6D9523093D50001501C5 /* MQueue.swift */; };
+		DE9B6D9923094674001501C5 /* MQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B6D9823094674001501C5 /* MQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		DE2F9AB323093C4600280280 /* MQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F9AB723093C4600280280 /* MQueueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQueueUITests.swift; sourceTree = "<group>"; };
 		DE2F9AB923093C4600280280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE9B6D9523093D50001501C5 /* MQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQueue.swift; sourceTree = "<group>"; };
+		DE9B6D9823094674001501C5 /* MQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQueue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 		DE2F9A9323093C4400280280 /* MQueue */ = {
 			isa = PBXGroup;
 			children = (
-				DE9B6D9423093D2D001501C5 /* MQueueLib */,
+				DE9B6D9723094674001501C5 /* MQueueLib */,
 				DE2F9A9423093C4400280280 /* AppDelegate.swift */,
 				DE2F9A9623093C4400280280 /* ViewController.swift */,
 				DE2F9A9823093C4400280280 /* Main.storyboard */,
@@ -131,12 +131,13 @@
 			path = MQueueUITests;
 			sourceTree = "<group>";
 		};
-		DE9B6D9423093D2D001501C5 /* MQueueLib */ = {
+		DE9B6D9723094674001501C5 /* MQueueLib */ = {
 			isa = PBXGroup;
 			children = (
-				DE9B6D9523093D50001501C5 /* MQueue.swift */,
+				DE9B6D9823094674001501C5 /* MQueue.swift */,
 			);
-			path = MQueueLib;
+			name = MQueueLib;
+			path = ../../MQueueLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE2F9A9D23093C4400280280 /* MQueue.xcdatamodeld in Sources */,
-				DE9B6D9623093D50001501C5 /* MQueue.swift in Sources */,
+				DE9B6D9923094674001501C5 /* MQueue.swift in Sources */,
 				DE2F9A9723093C4400280280 /* ViewController.swift in Sources */,
 				DE2F9A9523093C4400280280 /* AppDelegate.swift in Sources */,
 			);
