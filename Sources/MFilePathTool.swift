@@ -161,9 +161,9 @@ class MFilePathTool: NSObject {
        
         do{
             try fileManager.moveItem(at: fromURL, to: toURL)
-            CCLog("移动文件成功Succsee to move file.")
+            print("移动文件成功Succsee to move file.")
         }catch{
-            CCLog(" 移动文件失败Failed to move file.")
+            print(" 移动文件失败Failed to move file.")
         }
     }
     
@@ -173,9 +173,9 @@ class MFilePathTool: NSObject {
     class func removeFile(fromURL:URL){
         do{
             try FileManager.default.removeItem(at: fromURL)
-            CCLog("移除文件成功Succsee remove file.")
+            print("移除文件成功Succsee remove file.")
         }catch{
-            CCLog("移除文件失败Failed remove file.")
+            print("移除文件失败Failed remove file.")
         }
     }
     
@@ -214,7 +214,7 @@ class MFilePathTool: NSObject {
             return digest.map { String(format: "%02hhx", $0) }.joined()
             
         } catch {
-            CCLog("Cannot open file:\(error.localizedDescription)")
+            print("Cannot open file:\(error.localizedDescription)")
             return nil
         }
     }
