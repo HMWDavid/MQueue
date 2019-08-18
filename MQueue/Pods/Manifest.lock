@@ -1,0 +1,16 @@
+PODS:
+  - MQueue (1.0.1)
+
+DEPENDENCIES:
+  - MQueue
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MQueue
+
+SPEC CHECKSUMS:
+  MQueue: 4e05402e28594e8b823473f17d7534c026d18097
+
+PODFILE CHECKSUM: 5750c3d2a91718a0938ca5f4df4ed760e34852c2
+
+COCOAPODS: 1.7.4

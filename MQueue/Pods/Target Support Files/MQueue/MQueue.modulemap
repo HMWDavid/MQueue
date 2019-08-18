@@ -1,0 +1,6 @@
+framework module MQueue {
+  umbrella header "MQueue-umbrella.h"
+
+  export *
+  module * { export * }
+}

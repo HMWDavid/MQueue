@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3574231C83C4EE696DC39B02 /* Pods_MQueue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F916A38A73BAFB58EBF0E440 /* Pods_MQueue.framework */; };
 		DE2F9A9523093C4400280280 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9A9423093C4400280280 /* AppDelegate.swift */; };
 		DE2F9A9723093C4400280280 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9A9623093C4400280280 /* ViewController.swift */; };
 		DE2F9A9A23093C4400280280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F9A9823093C4400280280 /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		DE2F9AA223093C4600280280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE2F9AA023093C4600280280 /* LaunchScreen.storyboard */; };
 		DE2F9AAD23093C4600280280 /* MQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9AAC23093C4600280280 /* MQueueTests.swift */; };
 		DE2F9AB823093C4600280280 /* MQueueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2F9AB723093C4600280280 /* MQueueUITests.swift */; };
-		DE9B6D9923094674001501C5 /* MQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9B6D9823094674001501C5 /* MQueue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6CE72E1C08D2829FC6496E5B /* Pods-MQueue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQueue.release.xcconfig"; path = "Target Support Files/Pods-MQueue/Pods-MQueue.release.xcconfig"; sourceTree = "<group>"; };
+		9E4F09B0E125D0C8333EB4B0 /* Pods-MQueue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MQueue.debug.xcconfig"; path = "Target Support Files/Pods-MQueue/Pods-MQueue.debug.xcconfig"; sourceTree = "<group>"; };
 		DE2F9A9123093C4400280280 /* MQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F9A9423093C4400280280 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE2F9A9623093C4400280280 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +52,7 @@
 		DE2F9AB323093C4600280280 /* MQueueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQueueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE2F9AB723093C4600280280 /* MQueueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQueueUITests.swift; sourceTree = "<group>"; };
 		DE2F9AB923093C4600280280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DE9B6D9823094674001501C5 /* MQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MQueue.swift; sourceTree = "<group>"; };
+		F916A38A73BAFB58EBF0E440 /* Pods_MQueue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQueue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3574231C83C4EE696DC39B02 /* Pods_MQueue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		965B698AF5DE461B99816B48 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E4F09B0E125D0C8333EB4B0 /* Pods-MQueue.debug.xcconfig */,
+				6CE72E1C08D2829FC6496E5B /* Pods-MQueue.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD2DD7864FC61E038F73AAA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F916A38A73BAFB58EBF0E440 /* Pods_MQueue.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DE2F9A8823093C4400280280 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +106,8 @@
 				DE2F9AAB23093C4600280280 /* MQueueTests */,
 				DE2F9AB623093C4600280280 /* MQueueUITests */,
 				DE2F9A9223093C4400280280 /* Products */,
+				965B698AF5DE461B99816B48 /* Pods */,
+				CD2DD7864FC61E038F73AAA2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,7 +124,6 @@
 		DE2F9A9323093C4400280280 /* MQueue */ = {
 			isa = PBXGroup;
 			children = (
-				DE9B6D9723094674001501C5 /* MQueueLib */,
 				DE2F9A9423093C4400280280 /* AppDelegate.swift */,
 				DE2F9A9623093C4400280280 /* ViewController.swift */,
 				DE2F9A9823093C4400280280 /* Main.storyboard */,
@@ -131,15 +153,6 @@
 			path = MQueueUITests;
 			sourceTree = "<group>";
 		};
-		DE9B6D9723094674001501C5 /* MQueueLib */ = {
-			isa = PBXGroup;
-			children = (
-				DE9B6D9823094674001501C5 /* MQueue.swift */,
-			);
-			name = MQueueLib;
-			path = ../../MQueueLib;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +160,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE2F9ABC23093C4600280280 /* Build configuration list for PBXNativeTarget "MQueue" */;
 			buildPhases = (
+				D5567926A1620DB28A5F51FA /* [CP] Check Pods Manifest.lock */,
 				DE2F9A8D23093C4400280280 /* Sources */,
 				DE2F9A8E23093C4400280280 /* Frameworks */,
 				DE2F9A8F23093C4400280280 /* Resources */,
+				EE711E64FF77FC19841E60EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -266,13 +281,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		D5567926A1620DB28A5F51FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MQueue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE711E64FF77FC19841E60EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MQueue/Pods-MQueue-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MQueue/Pods-MQueue-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MQueue/Pods-MQueue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DE2F9A8D23093C4400280280 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DE2F9A9D23093C4400280280 /* MQueue.xcdatamodeld in Sources */,
-				DE9B6D9923094674001501C5 /* MQueue.swift in Sources */,
 				DE2F9A9723093C4400280280 /* ViewController.swift in Sources */,
 				DE2F9A9523093C4400280280 /* AppDelegate.swift in Sources */,
 			);
@@ -447,6 +503,7 @@
 		};
 		DE2F9ABD23093C4600280280 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E4F09B0E125D0C8333EB4B0 /* Pods-MQueue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,6 +522,7 @@
 		};
 		DE2F9ABE23093C4600280280 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CE72E1C08D2829FC6496E5B /* Pods-MQueue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
