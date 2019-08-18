@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
-    s.name              = 'MQueue'
-    s.version           = '1.0.2'
+    s.name              = 'MTool'
+    s.version           = '1.0.0'
     s.summary           = '这是一个swift 版本的OperationQueu'
     s.description       = '这是一个swift 版本的OperationQueu.'
     s.homepage          = 'https://github.com/HMWDavid/MQueue'
